@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DOORWAY LIGHT HELPER
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 12
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 358, y: 6, z: 121.5}
+      m_Extent: {x: 2, y: 5, z: 1.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: []
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_VertexData:
+    serializedVersion: 2
+    m_VertexCount: 0
+    m_Channels: []
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 24
+      m_Range: 13
+      m_Start: -3
+      m_Data: b1133bb1133bb1133bb1133bb1133b000000b1133bffffffb1133bb1133bffffff0000009dd889b1133b0000009dd889ffffffb1133b9dd889ffffff0000009dd889b1133bb1133b
+      m_BitSize: 24
+    m_UV:
+      m_NumItems: 64
+      m_Range: 13
+      m_Start: -3
+      m_Data: b1133bb1133b000000b1133bb1133bffffff000000ffffff622776b1133bb1133bffffff622776ffffffb1133bb1133b84783bb7264184783b84783bda674eb72641da674e84783bda674e8a8b4184783bbe394785783b8a8b41d9674ebe3947d8c946c58e3b62e746c58e3bd8c9464fac3b62e7464fac3b62e74627b63bd8c946b1d33bd8c94627b63b62e746b1d33b8a783b2726418a783b8a783b62674e27264162674e8a783b62674e138b418a783b9d38478a783b138b4162674e9d3847
+      m_BitSize: 24
+    m_Normals:
+      m_NumItems: 16
+      m_Range: 2
+      m_Start: -1
+      m_Data: ffffff000080ffffff000080ffffff000080ffffff000080000000000080000000000080000000000080000000000080
+      m_BitSize: 24
+    m_Tangents:
+      m_NumItems: 16
+      m_Range: 0
+      m_Start: 0
+      m_Data: 0000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c0
+      m_BitSize: 24
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 8
+      m_Data: ff
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 16
+      m_Data: 5500
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 32
+      m_Range: 0
+      m_Start: 1
+      m_Data: 0000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c0
+      m_BitSize: 24
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 12
+      m_Data: 8832b1e60b
+      m_BitSize: 3
+    m_UVInfo: 21845
+  m_LocalAABB:
+    m_Center: {x: 2, y: 5, z: -1.5}
+    m_Extent: {x: 2, y: 5, z: 1.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshMetrics[0]: 0.25
+  m_MeshMetrics[1]: 1
+  m_MeshOptimized: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path:

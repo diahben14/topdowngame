@@ -1,0 +1,6 @@
+,mp0,mp1,mp2
+mp_startingAmount,0,0,80
+mp_MPPerUpgrade,0,0,20
+mp_rechargeRate,0,0,0
+mp_rechargeDelayOnUse,0,0,8
+mp_rechargeDelayOnDeplete,0,0,12

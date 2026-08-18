@@ -1,0 +1,8 @@
+,dr,def_pow,hurt_NORMAL,hurt_EXPLOSIVE,hurt_FIRE,hurt_STICK,hurt_STAB,hurt_POISON,hurt_STUNNER,hurt_TB,hurt_WAND,hurt_CROSS,hurt_L,hurt_V
+pottery,0,-1,1,1,0,1,1,0,1,1,1,1,1,1
+grass,10,-1,1,1,1,0,0,0,0,1,0,1,1,1
+firecracker,0,-1,1,1,1,0,1,0,1,1,1,1,1,1
+metal,0,-1,-1,0,0,-1,-1,0,0,-1,1,1,1,1
+secret,0,-1,0,1,0,0,0,0,0,0,1,1,1,1
+crate,1000,-1,1,1,1,0,0.5,0,0,-1,1,1,1,1
+furniture,10,-1,1,1,1,0,0,0,0,1,1,1,1,1

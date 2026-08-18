@@ -1,0 +1,11 @@
+namespace FMOD
+{
+	public enum DSP_PAN_3D_ROLLOFF_TYPE
+	{
+		LINEARSQUARED = 0,
+		LINEAR = 1,
+		INVERSE = 2,
+		INVERSETAPERED = 3,
+		CUSTOM = 4
+	}
+}

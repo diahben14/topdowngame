@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DOORWAY LIGHT HELPER
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 30
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 18
+    localAABB:
+      m_Center: {x: 288.25, y: 15, z: 62.25}
+      m_Extent: {x: 4.25, y: 4, z: 3.75}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: []
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_VertexData:
+    serializedVersion: 2
+    m_VertexCount: 0
+    m_Channels: []
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 54
+      m_Range: 12
+      m_Start: -3.5
+      m_Data: aaaa4aaaaa4aaaaa4aaaaa4aaaaa4a000000aaaa4a5455f5aaaa4aaaaa4a5455f5000000ffff9f5455f5000000aaaa4a5455f5aaaa4aaaaa4a5455f5000000ffff9f5455f5aaaa4affff9faaaa4a000000ffff9f5455f5aaaa4affff9f5455f5000000ffff9faaaa4aaaaa4affffffaaaa4aaaaa4affff9f5455f5aaaa4affff9faaaa4aaaaa4affffff5455f5aaaa4a2aab4a5455f5ffff9f2aab4aaaaa4affff9f
+      m_BitSize: 24
+    m_UV:
+      m_NumItems: 144
+      m_Range: 16.5
+      m_Start: -8.5
+      m_Data: f8e083f8e08365934df8e083f8e083ffffff65934dffffff74d14565934df8e083f8e083f8e08365934d74d145f8e0838b2ebaf8e083f8e083ffffff8b2ebafffffff8e083f8e083000000f8e08374d145ffffff74d145f8e083000000ffffff7bf0c1ffffff7bf0c1f8e0836830842e6c8768308468308477948b2e6c8777948b683084ee958f683084e7e38b2e6c87e7e38b683084ee958f2e6c8777948b5de58f6830842421936830845de58f76948b24219377948bed958f683084a56d8b77948ba56d8b683084ed958f77948b361e8b683084361e8bb2e988d9e4855df488d9e485b2e9881ffc855df4881ffc85641389e003861efc88261b861efc88e00386641389261b865df488e0038617dd88261b8617dd88e003865df488261b86641389d9e4851efc881ffc851efc88d9e4856413891ffc8517dd881ffc8517dd88d9e4856c30841f6c876c30846c30845d948b1f6c875d948b6c308455958f6c3084d9e48b1f6c87d9e48b6c308455958f1f6c875d948bd9e48f6c3084f820936c3084d9e48f5d948bf820935d948b55958f6c3084936d8b5d948b936d8b6c308455958f5d948b0f1e8b6c30840f1e8b
+      m_BitSize: 24
+    m_Normals:
+      m_NumItems: 36
+      m_Range: 2
+      m_Start: -1
+      m_Data: ffffff000080ffffff000080ffffff000080ffffff000080000080000000000080000000000080000000000080000000000000000080000000000080000000000080000000000080000080000080000080000080000080000080000080000080ffffff000080ffffff000080
+      m_BitSize: 24
+    m_Tangents:
+      m_NumItems: 36
+      m_Range: 1.0000229
+      m_Start: -1
+      m_Data: 7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff0000007ffeff0000007ffeff0000007ffeff0000007ffeff7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff7ffeff0000007ffeff0000007ffeff0000007ffeff0000007ffeffffffff7ffeffffffff7ffeff
+      m_BitSize: 24
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 18
+      m_Data: ffff00
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 36
+      m_Data: 5555005505
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 72
+      m_Range: 0
+      m_Start: 1
+      m_Data: 0000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c00000c0
+      m_BitSize: 24
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 30
+      m_Data: 2088300429869c8292422bb1e6d86b10081801
+      m_BitSize: 5
+    m_UVInfo: 21845
+  m_LocalAABB:
+    m_Center: {x: 4.25, y: 4, z: 0.25}
+    m_Extent: {x: 4.25, y: 4, z: 3.75}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshMetrics[0]: 0.1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimized: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path:

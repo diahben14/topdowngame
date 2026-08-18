@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!238 &23800000
+NavMeshData:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: __NavMeshSurfaces
+  m_NavMeshTiles:
+  - m_MeshData: 56414e4410000000ffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Hash:
+      serializedVersion: 2
+      Hash: 5bee1ac6ead07ea7790e40402090ea1f
+  - m_MeshData: 56414e441000000000000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Hash:
+      serializedVersion: 2
+      Hash: 99283231f2193a0faca9ecfbcf8bde65
+  - m_MeshData: 56414e4410000000ffffffff0100000000000000010000000400000001000000000000000200000002000000000070c10000803fabaa2a420000000033339842565595420000c040555565c1ab2a904256558d42555565c1ab2a904200009442000030c1ab2a904200009442000030c1ab2a904256558d420000010002000300000000000000000000000000000000000100000004000000000000000000000000000200030000000200110000000100020005000400aa01a8001800b001bc000000000000000000000000000000000000000000
+    m_Hash:
+      serializedVersion: 2
+      Hash: f52c5aef1460be553031ae868599921f
+  m_NavMeshBuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_Heightmaps: []
+  m_HeightMeshes: []
+  m_OffMeshLinks: []
+  m_SourceBounds:
+    m_Center: {x: -7, y: 36, z: 36.380325}
+    m_Extent: {x: 8.05, y: 36.05, z: 38.260326}
+  m_Rotation: {x: -0, y: -0, z: -0, w: 1}
+  m_Position: {x: 0, y: -2, z: 0}
+  m_AgentTypeID: 0

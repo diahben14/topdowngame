@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - New Tag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Ignore Enemy
+  - Ignore Enemy + Self
+  - Player
+  - Attracted Pickups
+  - Mask
+  - iFrames
+  - DefaultHidden
+  - Nav Helper
+  - inConduit
+  - player + detritus collision
+  - tentacles
+  - tentacle colliders
+  - detritus - enemy+player+world collision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Do Not Select In Scene
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

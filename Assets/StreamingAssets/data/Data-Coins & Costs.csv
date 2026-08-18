@@ -1,0 +1,7 @@
+coinDropScaler,1.5
+coinDropFalloffRate,1.15
+coinDropMin,0.33
+coinDropMax,30
+HPUpgradeCostBase,2
+HPUpgradeCostIncrease,1
+smallCoinsPerBig,100

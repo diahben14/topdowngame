@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178fe6b1617f43b6e60f635d83783e01, type: 3}
+  m_Name: Level Up - Magic 1
+  m_EditorClassIdentifier:
+  icon: {fileID: 21300000, guid: 63ec788ef1321014f971bc556a7ba9a7, type: 2}
+  baseValue: 256
+  collectionMessage: {fileID: 11400000, guid: 0a5ffad2f683de9448cba1800f3f5e08, type: 2}
+  Sort: 0

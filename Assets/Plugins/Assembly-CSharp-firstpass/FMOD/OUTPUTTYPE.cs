@@ -1,0 +1,26 @@
+namespace FMOD
+{
+	public enum OUTPUTTYPE
+	{
+		AUTODETECT = 0,
+		UNKNOWN = 1,
+		NOSOUND = 2,
+		WAVWRITER = 3,
+		NOSOUND_NRT = 4,
+		WAVWRITER_NRT = 5,
+		WASAPI = 6,
+		ASIO = 7,
+		PULSEAUDIO = 8,
+		ALSA = 9,
+		COREAUDIO = 10,
+		AUDIOTRACK = 11,
+		OPENSL = 12,
+		AUDIOOUT = 13,
+		AUDIO3D = 14,
+		WEBAUDIO = 15,
+		NNAUDIO = 16,
+		WINSONIC = 17,
+		AAUDIO = 18,
+		MAX = 19
+	}
+}

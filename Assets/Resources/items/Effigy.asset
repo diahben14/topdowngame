@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e240a28012cf99c66389ded3fc3b46, type: 3}
+  m_Name: Effigy
+  m_EditorClassIdentifier:
+  icon: {fileID: 21300000, guid: 68a3de0ae5904e242bab1dc5bef9cfcc, type: 2}
+  baseValue: 0
+  collectionMessage: {fileID: 0}
+  Sort: 2
+  upgradeItemReceived: {fileID: 0}
+  statLabel: {fileID: 11400000, guid: 622ea2da5b1f40147a0c63176d2d533b, type: 2}
+  statLabel_short: {fileID: 11400000, guid: e12e0ace849b13641aac6afcee6dfe3a, type: 2}
+  basePrice: 100
+  priceIncreasePerLevelup: 20

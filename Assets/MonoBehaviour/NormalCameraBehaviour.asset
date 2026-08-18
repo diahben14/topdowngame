@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5948acb6ca1bf190ff285869548c5f4, type: 3}
+  m_Name: NormalCameraBehaviour
+  m_EditorClassIdentifier:
+  dataLayer:
+    priority: -100
+    conduitOnly: 0
+    override_orthographicSize: 1
+    orthographicSize: 10
+    override_normalCameraEulerX: 1
+    normalCameraEulerX: 35.264
+    override_eulerY: 1
+    eulerY: 45
+    override_zTargetCameraEulerX: 1
+    zTargetCameraEulerX: 55
+    override_orthographicSizeSmoothTime: 1
+    orthographicSizeSmoothTime: 0.5
+    override_positionSmoothTime: 1
+    positionSmoothTime: 0.5
+    override_xRotationOverrideSmoothTime: 0
+    xRotationOverrideSmoothTime: 3
+    override_eulerYSmoothTime: 0
+    eulerYSmoothTime: 0.5
+    override_xRotationOverrideMaxSpeed: 0
+    xRotationOverrideMaxSpeed: 45
+    override_eulerYMaxSmoothSpeed: 0
+    eulerYMaxSmoothSpeed: 360
+    override_maxZTargetDistance: 1
+    maxZTargetDistance: 18
+    override_moveCameraToZTargetParameter: 1
+    moveCameraToZTargetParameter: 0.33
+    override_orthographicNearClipPlane: 1
+    orthographicNearClipPlane: 1
+    override_perspectiveFarClipPlane: 1
+    perspectiveFarClipPlane: 800
+    override_perspectiveFOV: 1
+    perspectiveFOV: 30
+    override_cameraDistance: 1
+    cameraDistance: 50
+    override_orthographicDepth: 1
+    orthographicDepth: 100
+    override_smoothCamera: 1
+    smoothCamera: 1
+    override_zTargettingPositionSmoothingTime: 1
+    zTargettingPositionSmoothingTime: 0.25
+    override_zTargettingZoomAmount: 1
+    zTargettingZoomAmount: 1.5
+    override_parameterizeZTargettingZoomByDistance: 1
+    parameterizeZTargettingZoomByDistance: 0
+    override_eulerYTarget: 1
+    eulerYTarget: {fileID: 0}
+    override_faceAwayFromEulerYTarget: 0
+    faceAwayFromEulerYTarget: 0

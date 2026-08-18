@@ -1,0 +1,14 @@
+namespace FMOD
+{
+	public enum TAGDATATYPE
+	{
+		BINARY = 0,
+		INT = 1,
+		FLOAT = 2,
+		STRING = 3,
+		STRING_UTF16 = 4,
+		STRING_UTF16BE = 5,
+		STRING_UTF8 = 6,
+		MAX = 7
+	}
+}

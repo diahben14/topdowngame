@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5816278061696992247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -53
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.039843
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071074
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000015454324
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071062
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000015454296
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.0000025044783
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.9999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395208220, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917088487395216849, guid: fac5377b440d79f44bdf65b3f154f2da,
+        type: 3}
+      propertyPath: m_Name
+      value: Fortress exterior tileblock greeble 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fac5377b440d79f44bdf65b3f154f2da, type: 3}

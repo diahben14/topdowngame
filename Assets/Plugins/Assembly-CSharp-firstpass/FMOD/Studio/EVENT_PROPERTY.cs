@@ -1,0 +1,13 @@
+namespace FMOD.Studio
+{
+	public enum EVENT_PROPERTY
+	{
+		CHANNELPRIORITY = 0,
+		SCHEDULE_DELAY = 1,
+		SCHEDULE_LOOKAHEAD = 2,
+		MINIMUM_DISTANCE = 3,
+		MAXIMUM_DISTANCE = 4,
+		COOLDOWN = 5,
+		MAX = 6
+	}
+}

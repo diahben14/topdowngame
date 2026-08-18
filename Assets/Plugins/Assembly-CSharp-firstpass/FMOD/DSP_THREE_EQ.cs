@@ -1,0 +1,12 @@
+namespace FMOD
+{
+	public enum DSP_THREE_EQ
+	{
+		LOWGAIN = 0,
+		MIDGAIN = 1,
+		HIGHGAIN = 2,
+		LOWCROSSOVER = 3,
+		HIGHCROSSOVER = 4,
+		CROSSOVERSLOPE = 5
+	}
+}

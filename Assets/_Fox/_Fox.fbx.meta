@@ -1,0 +1,1800 @@
+fileFormatVersion: 2
+guid: 48e8234c1d1152446b38813aa9a80990
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: _Fox(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _Fox
+      parentName: _Fox(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.25203252, y: -0.5504208, z: 0.38635182, w: 0.6958799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fox
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: Fox
+      position: {x: -0, y: 0, z: 0.00009153145}
+      rotation: {x: -0.16403164, y: 0.49841124, z: -0.4514611, w: 0.72170824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis
+      parentName: root
+      position: {x: 1.325598e-19, y: 0.0055084745, z: -0.00019899904}
+      rotation: {x: -0, y: -0, z: -0.000000007450581, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: lantern
+      parentName: pelvis
+      position: {x: -0.0028883861, y: 0.0013311714, z: 0.0039365436}
+      rotation: {x: 0.09394409, y: 0.97014123, z: -0.14637218, w: 0.16904339}
+      scale: {x: 0.5127247, y: 0.44530654, z: 0.5127247}
+    - name: chest
+      parentName: pelvis
+      position: {x: 1.964584e-13, y: 0.0028945284, z: -1.04051255e-11}
+      rotation: {x: -0.013884865, y: -0.000000089510415, z: 0.000000059603927, w: 0.9999037}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999995}
+    - name: head
+      parentName: chest
+      position: {x: -3.3099745e-12, y: 0.0036013888, z: 3.608875e-11}
+      rotation: {x: 0.022503274, y: -0.00000000168567, z: 0.00000003523415, w: 0.9997468}
+      scale: {x: 1.0000001, y: 0.99999964, z: 1}
+    - name: scavenger_mask
+      parentName: head
+      position: {x: -0, y: -0.01205, z: -0.0001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameObject
+      parentName: head
+      position: {x: -0, y: 0.00842, z: -0.00246}
+      rotation: {x: -0.19015507, y: -5.32907e-15, z: -7.216448e-16, w: 0.98175406}
+      scale: {x: 1.053305, y: 1.053305, z: 1.053305}
+    - name: therealest
+      parentName: head
+      position: {x: -0, y: 0.006790363, z: 0.0023036744}
+      rotation: {x: -0.09679362, y: -0.000000028865468, z: 0.0000000029874747, w: 0.99530447}
+      scale: {x: 1.7590703, y: 1.7590705, z: 1.7590704}
+    - name: ear.R
+      parentName: head
+      position: {x: 0.0028042537, y: 0.006460235, z: -0.0019060448}
+      rotation: {x: -0.027015248, y: 0.0019858528, z: -0.19286078, w: 0.9808522}
+      scale: {x: 1.0000005, y: 1, z: 0.99999976}
+    - name: ear.R_end
+      parentName: ear.R
+      position: {x: -0, y: 0.005727064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hair_main
+      parentName: head
+      position: {x: 0.0016580197, y: 0.0070274305, z: 0.0010113284}
+      rotation: {x: 0.19134721, y: 0.15036635, z: 0.57236844, w: 0.7830521}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999997}
+    - name: hair_tip
+      parentName: hair_main
+      position: {x: 3.0733643e-10, y: 0.0034206042, z: -2.6077032e-10}
+      rotation: {x: -0.4626485, y: -0.00093640387, z: -0.06459013, w: 0.8841853}
+      scale: {x: 1.0000008, y: 0.9999999, z: 1.0000011}
+    - name: hair_tip_end
+      parentName: hair_tip
+      position: {x: -0, y: 0.0032764026, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eyes
+      parentName: head
+      position: {x: 4.6566128e-12, y: 0.0048568654, z: 0.0018520101}
+      rotation: {x: -0.000000029802319, y: 2.568926e-10, z: 0.000000029801233, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: eyes_end
+      parentName: eyes
+      position: {x: -0, y: 0.001478081, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L
+      parentName: head
+      position: {x: -0.0028042537, y: 0.007145035, z: -0.002973487}
+      rotation: {x: -0.02701561, y: -0.0019857606, z: 0.19286095, w: 0.9808522}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: ear.L_end
+      parentName: ear.L
+      position: {x: -0, y: 0.005727064, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mouth
+      parentName: head
+      position: {x: -0.0001950427, y: 0.0020705175, z: 0.0048118914}
+      rotation: {x: 0.1578046, y: -0.49450114, z: 0.45574048, w: 0.7230954}
+      scale: {x: 1.0000002, y: 0, z: 0.9999998}
+    - name: mouth_end
+      parentName: mouth
+      position: {x: -0, y: 0.0014780813, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: floppy_hat_1
+      parentName: head
+      position: {x: -0.000025021438, y: 0.009419544, z: -0.0033814728}
+      rotation: {x: -0.18114544, y: 0.000000074535, z: 0.000000024483802, w: 0.9834564}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: floppy_hat_2
+      parentName: floppy_hat_1
+      position: {x: 1.8499184e-12, y: 0.0021334188, z: 2.9790564e-10}
+      rotation: {x: 0.026002863, y: -0.000000026571524, z: -0.000000035668098, w: 0.9996619}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    - name: floppy_hat_3
+      parentName: floppy_hat_2
+      position: {x: -2.93274e-12, y: 0.0018960654, z: -2.9814295e-10}
+      rotation: {x: 0.019932833, y: -0.000000029544553, z: -0.0000000131105224, w: 0.9998014}
+      scale: {x: 1, y: 0.99999976, z: 0.99999934}
+    - name: floppy_hat_4
+      parentName: floppy_hat_3
+      position: {x: 2.5005271e-12, y: 0.0016910388, z: 8.939485e-10}
+      rotation: {x: -0.0010709014, y: -0.000000025716805, z: -0.000000033249158, w: 0.99999946}
+      scale: {x: 1, y: 0.9999996, z: 0.99999964}
+    - name: floppy_hat_4_end
+      parentName: floppy_hat_4
+      position: {x: -0, y: 0.001747158, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cape_upper
+      parentName: chest
+      position: {x: -1.790486e-10, y: 0.0028971385, z: -0.00226182}
+      rotation: {x: 0.000000079858836, y: -0.24953237, z: 0.9683665, w: -0.00000008383361}
+      scale: {x: 1.0000023, y: 1.0000019, z: 1.0000002}
+    - name: cape_middle
+      parentName: cape_upper
+      position: {x: -2.4800684e-10, y: 0.0035386898, z: -2.9802322e-10}
+      rotation: {x: 0.16736609, y: -0.00000056620297, z: -0.00000014711495, w: 0.9858948}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000005}
+    - name: cape_lower
+      parentName: cape_middle
+      position: {x: 6.774968e-11, y: 0.0035493327, z: 0}
+      rotation: {x: 0.12472531, y: 0.0000007656431, z: -0.000000056939413, w: 0.9921914}
+      scale: {x: 1.0000046, y: 1.0000057, z: 0.99999887}
+    - name: cape_lower_end
+      parentName: cape_lower
+      position: {x: -0, y: 0.00301647, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_upper.L
+      parentName: chest
+      position: {x: -0.00365793, y: 0.0019818097, z: 0.00032738215}
+      rotation: {x: 0.0045048585, y: 0.00089007494, z: 0.72752905, w: 0.6860615}
+      scale: {x: 1.0000015, y: 1.0000026, z: 1.0000001}
+    - name: arm_lower.L
+      parentName: arm_upper.L
+      position: {x: 3.72529e-10, y: 0.0022347462, z: 0}
+      rotation: {x: 0.026450863, y: 0.019090323, z: -0.021039438, w: 0.99924636}
+      scale: {x: 1.000003, y: 1.0000011, z: 1.0000001}
+    - name: hand.L
+      parentName: arm_lower.L
+      position: {x: 4.4703483e-10, y: 0.002929449, z: -4.4703483e-10}
+      rotation: {x: -0.08449763, y: -0.8321294, z: -0.52036923, w: -0.17215295}
+      scale: {x: 0.99999946, y: 1.0000049, z: 0.99999565}
+    - name: hand.L_end
+      parentName: hand.L
+      position: {x: -0, y: 0.0022475233, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shield_proxy
+      parentName: hand.L
+      position: {x: 0.00031505316, y: -0.00019775584, z: 0.001024608}
+      rotation: {x: 0.7071068, y: -0.0000000065854464, z: -0.000000025024692, w: 0.7071067}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Aura's Gem
+      parentName: shield_proxy
+      position: {x: -0, y: 0.0010899999, z: 0.00154}
+      rotation: {x: -0.05675133, y: 0.00000021897444, z: 0.000000045731458, w: 0.99838835}
+      scale: {x: 0.29061383, y: 0.24646272, z: 0.16809213}
+    - name: bow_proxy
+      parentName: hand.L
+      position: {x: -0.00013228475, y: 0.0023863332, z: -0.0037574337}
+      rotation: {x: 0.024640296, y: 0.022821678, z: 0.69757867, w: 0.7157207}
+      scale: {x: 0.5614762, y: 0.5614762, z: 0.5614762}
+    - name: arm_upper.R
+      parentName: chest
+      position: {x: 0.00365793, y: 0.00198181, z: 0.0003273817}
+      rotation: {x: -0.004505071, y: 0.0008902036, z: 0.7275294, w: -0.6860612}
+      scale: {x: 1.0000012, y: 1.0000015, z: 1.0000001}
+    - name: arm_lower.R
+      parentName: arm_upper.R
+      position: {x: -9.563519e-10, y: 0.0022347441, z: -3.702007e-10}
+      rotation: {x: 0.012825717, y: 0.4707913, z: 0.03126952, w: 0.88159704}
+      scale: {x: 1.000002, y: 1.0000021, z: 1.0000012}
+    - name: hand.R
+      parentName: arm_lower.R
+      position: {x: -4.5634804e-10, y: 0.002929449, z: 3.72529e-10}
+      rotation: {x: 0.3276099, y: -0.81038153, z: -0.4130318, w: -0.25565282}
+      scale: {x: 0.99999934, y: 1.0000036, z: 0.9999992}
+    - name: hand.R_end
+      parentName: hand.R
+      position: {x: -0, y: 0.0022475233, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_proxy
+      parentName: hand.R
+      position: {x: -0.00020091176, y: 0.00019895448, z: 0.000074965545}
+      rotation: {x: 0.7071068, y: -0.0000000013170892, z: -1.1838218e-15, w: 0.7071067}
+      scale: {x: 1.15, y: 1.15, z: 1.15}
+    - name: sword1 trail
+      parentName: sword_proxy
+      position: {x: -0, y: 0.0076529994, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hitbox_sword1_1
+      parentName: sword_proxy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hitbox_sword1_2
+      parentName: sword_proxy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shockwave ring mesh
+      parentName: sword_proxy
+      position: {x: -0, y: 0.00939, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.3039668, y: 0.30396667, z: 0.5515366}
+    - name: potion_proxy
+      parentName: hand.R
+      position: {x: 0.00042185187, y: 0.00070532993, z: 0.00007133011}
+      rotation: {x: -0.16740729, y: 0.59822595, z: 0.55896425, w: 0.5492354}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: potion (hp)
+      parentName: potion_proxy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940694, y: 0.000000029802312, z: -0.000000007450578,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: potion (mp)
+      parentName: potion_proxy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000008940694, y: 0.000000029802312, z: -0.000000007450578,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: stick_proxy
+      parentName: hand.R
+      position: {x: 0.00018699348, y: 0.00012460545, z: -0.00005167693}
+      rotation: {x: -0.030021187, y: -0.052148975, z: -0.09189731, w: 0.99394876}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: stick trail
+      parentName: stick_proxy
+      position: {x: -0, y: 0, z: 0.00823}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hitbox_stick
+      parentName: stick_proxy
+      position: {x: -0.00037876677, y: -0.000005459925, z: 0.00016894731}
+      rotation: {x: 0.72405607, y: 0.10185612, z: 0.028106341, w: 0.68159974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: potion_proxy (antidote)
+      parentName: hand.R
+      position: {x: 0.00042193508, y: 0.0007051711, z: 0.00007138731}
+      rotation: {x: -0.16740718, y: 0.59822595, z: 0.5589643, w: 0.54923546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sword_proxy (sword 2)
+      parentName: hand.R
+      position: {x: -0.00020091204, y: 0.00019895453, z: 0.00007496506}
+      rotation: {x: 0.6610537, y: -0.048276436, z: 0.048276495, w: 0.7472261}
+      scale: {x: 1.45, y: 1.45, z: 1.45}
+    - name: sword2 trail
+      parentName: sword_proxy (sword 2)
+      position: {x: -0, y: 0.00748, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hitbox_sword1_1
+      parentName: sword_proxy (sword 2)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hitbox_sword1_2
+      parentName: sword_proxy (sword 2)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shockwave ring mesh
+      parentName: sword_proxy (sword 2)
+      position: {x: -0, y: 0.00939, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.3039668, y: 0.30396667, z: 0.5515366}
+    - name: wand
+      parentName: hand.R
+      position: {x: 0.0005939436, y: -0.00026102198, z: 0.003816564}
+      rotation: {x: 0.050332006, y: 0.11165222, z: -0.0034677207, w: 0.99246585}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: wand beam
+      parentName: wand
+      position: {x: -0.0064646206, y: -0.0043249065, z: -0.0023804535}
+      rotation: {x: -0.4404587, y: -0.50068897, z: 0.72745085, w: 0.16162318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wand anchor
+      parentName: wand
+      position: {x: -0, y: 0, z: 0.0069399998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wand orb
+      parentName: hand.R
+      position: {x: -0.00061999995, y: 0.00014999999, z: 0.00208}
+      rotation: {x: 0.080785125, y: 0.06611446, z: 0.13038637, w: 0.9859524}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: orb_base
+      parentName: wand orb
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: orb_sphere
+      parentName: wand orb
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: orb_tentacles
+      parentName: wand orb
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: orb_tentacles_source
+      parentName: wand orb
+      position: {x: -0.058714602, y: 0.039783724, z: 0.012511914}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bow_root
+      parentName: hand.R
+      position: {x: -0.000069357324, y: 0.00006189886, z: 0.0002621768}
+      rotation: {x: 0.7183407, y: -0.44061318, z: -0.29450145, w: 0.4506834}
+      scale: {x: 1.0000011, y: 1.0000002, z: 0.999999}
+    - name: frond.L
+      parentName: bow_root
+      position: {x: -0.0037851594, y: 0.008135249, z: -0.0029657818}
+      rotation: {x: -0.49567094, y: 0.50429124, z: 0.49567237, w: 0.50429124}
+      scale: {x: 1.0000019, y: 1.0000011, z: 1.0000019}
+    - name: frond.R
+      parentName: bow_root
+      position: {x: 0.0037851583, y: 0.008135251, z: -0.0029657825}
+      rotation: {x: 0.49567154, y: 0.50429064, z: 0.4956715, w: -0.504292}
+      scale: {x: 1.0000024, y: 1.0000014, z: 1.0000023}
+    - name: bow_muzzleflash
+      parentName: bow_root
+      position: {x: -0.00002550412, y: 0.0074166264, z: -0.0033504395}
+      rotation: {x: -0.000000029802312, y: 0.000000059604623, z: -0.000000042840824,
+        w: 1}
+      scale: {x: 0.09189474, y: 0.09189486, z: 0.091894805}
+    - name: wand_tendril.008
+      parentName: hand.R
+      position: {x: 0.001507012, y: 0.00015680105, z: 0.010024408}
+      rotation: {x: 0.07962742, y: 0.666416, z: 0.73612165, w: -0.08760237}
+      scale: {x: 0.009999997, y: 0.010000012, z: 0.009999996}
+    - name: wand_tendril.007
+      parentName: wand_tendril.008
+      position: {x: -0.000000114440915, y: 0.008155512, z: -0.000000052452087}
+      rotation: {x: -0.000000061932944, y: -0.00000001117587, z: -0.000000111758695,
+        w: 1}
+      scale: {x: 1.0000013, y: 1.0000012, z: 0.9999998}
+    - name: wand_tendril.006
+      parentName: wand_tendril.007
+      position: {x: -0.000000057220458, y: 0.008155657, z: 0.000000019073486}
+      rotation: {x: 0.0000000027939706, y: 0.000000022351736, z: 0.00000002235175,
+        w: 1}
+      scale: {x: 1.0000014, y: 1.0000012, z: 1.0000004}
+    - name: wand_tendril.005
+      parentName: wand_tendril.006
+      position: {x: -0.000000038146972, y: 0.008155669, z: 0.0000000333786}
+      rotation: {x: 0.000000061932944, y: 0.000000011175873, z: 0.000000070780494,
+        w: 1}
+      scale: {x: 1.0000018, y: 1.000002, z: 1.0000008}
+    - name: wand_tendril.004
+      parentName: wand_tendril.005
+      position: {x: -0.000000019073486, y: 0.008155535, z: 0.000000057220458}
+      rotation: {x: -0.000000007450583, y: -0.00000005587935, z: -0.000000100582824,
+        w: 1}
+      scale: {x: 1.0000017, y: 1.0000023, z: 0.9999995}
+    - name: wand_tendril.003
+      parentName: wand_tendril.004
+      position: {x: 0.000000057220458, y: 0.008155603, z: -0.000000076293944}
+      rotation: {x: -0.000000057276335, y: 0.000000022351736, z: 0.000000007450587,
+        w: 1}
+      scale: {x: 1.0000013, y: 1.0000005, z: 0.9999998}
+    - name: wand_tendril.002
+      parentName: wand_tendril.003
+      position: {x: -0.00000015258789, y: 0.008155716, z: -0.000000009536743}
+      rotation: {x: -0.000000015832484, y: 0.00000011920925, z: 0.00000020861623,
+        w: 1}
+      scale: {x: 1.0000021, y: 1.0000017, z: 1.0000002}
+    - name: wand_tendril.001
+      parentName: wand_tendril.002
+      position: {x: 0.000000114440915, y: 0.008155546, z: 0.000000052452087}
+      rotation: {x: 0.00000009406359, y: 0.000000026077027, z: -0.00000032410017,
+        w: 1}
+      scale: {x: 1.0000018, y: 1.0000008, z: 1.0000004}
+    - name: dagger
+      parentName: hand.R
+      position: {x: -5.9604643e-10, y: 5.9604643e-10, z: -2.6077032e-10}
+      rotation: {x: -0.11778565, y: 0.77284575, z: 0.59356475, w: 0.19109406}
+      scale: {x: 1.000004, y: 1.000002, z: 1}
+    - name: dagger mesh
+      parentName: dagger
+      position: {x: 0.000032844542, y: 0.0011273527, z: -0.000018695593}
+      rotation: {x: 0.701958, y: -0.0022112115, z: 0.7121099, w: -0.012228696}
+      scale: {x: 0.043856107, y: 0.0438561, z: 0.043856107}
+    - name: shotgun_proxy
+      parentName: dagger
+      position: {x: -0.0012999999, y: -0.00029999999, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: wandbow
+      parentName: hand.R
+      position: {x: -0.0003024955, y: -0.00023423687, z: -0.0002360833}
+      rotation: {x: 0.037623774, y: 0.78643775, z: 0.029545616, w: 0.6158143}
+      scale: {x: 1.0000017, y: 1.0000018, z: 0.9999998}
+    - name: wandbow 1
+      parentName: wandbow
+      position: {x: -0.00010402679, y: 0.00085476396, z: 0.0002028656}
+      rotation: {x: -0.6923818, y: -0.17840748, z: -0.1573461, w: 0.68119043}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: wandbow_end
+      parentName: wandbow
+      position: {x: -0, y: 0.0034739748, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail_main
+      parentName: pelvis
+      position: {x: -8.225456e-12, y: 0.0009720039, z: -0.0025481735}
+      rotation: {x: -0.49912927, y: -0.00000009312577, z: -0.000000008445028, w: 0.86652756}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: tail_tip
+      parentName: tail_main
+      position: {x: 1.7753592e-10, y: 0.0062515805, z: -2.0489097e-10}
+      rotation: {x: -0.0038753147, y: -0.000000022536309, z: 0.000000039007784, w: 0.9999925}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.000001}
+    - name: tail_tip_end
+      parentName: tail_tip
+      position: {x: -0, y: 0.0049718865, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_upper.L
+      parentName: pelvis
+      position: {x: -0.0025019092, y: 0.0003471815, z: 0.0014211413}
+      rotation: {x: 0.0018274486, y: 0.01766345, z: 0.99605745, w: 0.08691558}
+      scale: {x: 1.0000027, y: 1.0000032, z: 0.99999994}
+    - name: leg_lower.L
+      parentName: leg_upper.L
+      position: {x: -0, y: 0.0032996903, z: 2.6077032e-10}
+      rotation: {x: -0.13452789, y: -0.0017678505, z: 0.017281264, w: 0.9907576}
+      scale: {x: 1.0000045, y: 1.0000048, z: 1.0000005}
+    - name: leg_lower.L_end
+      parentName: leg_lower.L
+      position: {x: -0, y: 0.0035676137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_upper.R
+      parentName: pelvis
+      position: {x: 0.0025019092, y: 0.0003471816, z: 0.0014211416}
+      rotation: {x: -0.0018275714, y: 0.017663596, z: 0.9960574, w: -0.08691585}
+      scale: {x: 1.0000024, y: 1.0000015, z: 0.9999999}
+    - name: leg_lower.R
+      parentName: leg_upper.R
+      position: {x: 2.3283064e-10, y: 0.00329969, z: 1.3038516e-10}
+      rotation: {x: -0.13452782, y: 0.0017678007, z: -0.017281266, w: 0.9907575}
+      scale: {x: 1.0000036, y: 1.0000043, z: 1.0000006}
+    - name: leg_lower.R_end
+      parentName: leg_lower.R
+      position: {x: -0, y: 0.0035676137, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_IK.L
+      parentName: root
+      position: {x: -0.0039713187, y: 0.000026668327, z: 0.0035425748}
+      rotation: {x: -0.7071074, y: -0.000000104308114, z: -0.0000000074505797, w: 0.7071062}
+      scale: {x: 1, y: 1.0000006, z: 1.0000008}
+    - name: leg_IK.L_end
+      parentName: leg_IK.L
+      position: {x: -0, y: 0.002502088, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_pole.L
+      parentName: root
+      position: {x: -0.0047985795, y: 0.010515264, z: 0.0102405455}
+      rotation: {x: -0.00026402622, y: 0.01980421, z: -0.0153456405, w: 0.9996861}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: leg_pole.L_end
+      parentName: leg_pole.L
+      position: {x: -0, y: 0.0032603675, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_pole.L
+      parentName: root
+      position: {x: -0.0130584575, y: 0.010552591, z: -0.0010133971}
+      rotation: {x: 0.05012142, y: 0.005607873, z: 0.06691273, w: 0.9964834}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: arm_pole.L_end
+      parentName: arm_pole.L
+      position: {x: -0, y: 0.0016285527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_IK.R
+      parentName: root
+      position: {x: 0.0038899998, y: -0.00000010985881, z: -0.0014521288}
+      rotation: {x: -0.7071069, y: -0.00000013411045, z: 0.000000022351742, w: 0.70710677}
+      scale: {x: 0.9999999, y: 0.9999995, z: 0.99999964}
+    - name: leg_IK.R_end
+      parentName: leg_IK.R
+      position: {x: -0, y: 0.002502088, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg_pole.R
+      parentName: root
+      position: {x: 0.003259506, y: 0.008517036, z: 0.012208007}
+      rotation: {x: -0.00026398152, y: -0.019804358, z: 0.015345864, w: 0.9996861}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: leg_pole.R_end
+      parentName: leg_pole.R
+      position: {x: -0, y: 0.0032603675, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_pole.R
+      parentName: root
+      position: {x: 0.0048383973, y: 0.011832928, z: -0.012705397}
+      rotation: {x: 0.050121494, y: -0.0056079626, z: -0.06691253, w: 0.9964834}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999998}
+    - name: arm_pole.R_end
+      parentName: arm_pole.R
+      position: {x: -0, y: 0.0016285527, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_IK_L
+      parentName: root
+      position: {x: -0.005685892, y: 0.0065760002, z: 0.0038220703}
+      rotation: {x: 0.07673518, y: 0.16364548, z: 0.8904914, w: 0.41756073}
+      scale: {x: 1.0000006, y: 1.0000005, z: 0.9999999}
+    - name: arm_IK_L_end
+      parentName: arm_IK_L
+      position: {x: -0, y: 0.0040023844, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_IK_R
+      parentName: root
+      position: {x: 0.007144881, y: 0.008372769, z: 0.001832936}
+      rotation: {x: -0.07525763, y: 0.16430539, z: 0.8907059, w: -0.4171127}
+      scale: {x: 1.0000012, y: 1.0000015, z: 0.9999999}
+    - name: arm_IK_R_end
+      parentName: arm_IK_R
+      position: {x: -0, y: 0.0040023844, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_IK
+      parentName: root
+      position: {x: -0, y: 0.024886735, z: 0.000042583142}
+      rotation: {x: -0.000000029802322, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_IK_end
+      parentName: head_IK
+      position: {x: -0, y: 0.0020000003, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: freefloating
+      parentName: root
+      position: {x: 0.000040000003, y: 0.00703, z: 0}
+      rotation: {x: -0, y: -0, z: -0.000000007450581, w: 1}
+      scale: {x: 0.120136335, y: 0.120136335, z: 0.120136335}
+    - name: key twist
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trinketCoin_lowPoly
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.66, y: 1.66, z: 1.66}
+    - name: fox piggybank
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.75, y: 0.75, z: 0.75}
+    - name: freefloating_doll_bottom
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000001490116, y: -0.000000074505806, z: 0.9999766, w: 0.006849475}
+      scale: {x: 1.0000018, y: 1.0000019, z: 0.9999999}
+    - name: freefloating_doll_tail
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.47198793, y: 0.001325872, z: 0.00244823, w: 0.8816006}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    - name: freefloating_doll_top
+      parentName: freefloating
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000044703484, y: -0.000000029802322, z: -0.0015064627, w: 0.9999989}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: book 1
+      parentName: Fox
+      position: {x: -0, y: 0.012800629, z: 0.019581432}
+      rotation: {x: -0.1640309, y: 0.49841073, z: -0.45146152, w: 0.7217085}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: book_L
+      parentName: book 1
+      position: {x: -0.00041774227, y: 0.0022986701, z: 2.964225e-10}
+      rotation: {x: -0.00000071525574, y: 0.00000074505806, z: 0.70710737, w: 0.70710623}
+      scale: {x: 1.0000015, y: 1.0000015, z: 1}
+    - name: book_R
+      parentName: book 1
+      position: {x: 0.00041774227, y: 0.0022986701, z: -0.000000035466364}
+      rotation: {x: -0.000009410083, y: 0.0000006631017, z: 0.7071062, w: -0.7071074}
+      scale: {x: 1.0000015, y: 1.0000017, z: 0.99999994}
+    - name: book_page
+      parentName: book 1
+      position: {x: 0.000009392351, y: 0.0022986694, z: -0.00037661282}
+      rotation: {x: -0.49999985, y: -0.49999964, z: 0.50000113, w: 0.49999937}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: book_page.001
+      parentName: book_page
+      position: {x: 1.1714428e-10, y: 0.0012040186, z: -3.0198066e-14}
+      rotation: {x: -0.000001013279, y: 0.7071073, z: 0.00000024586916, w: 0.7071063}
+      scale: {x: 0.9999999, y: 1.0000029, z: 1.0000026}
+    - name: book_page.002
+      parentName: book_page.001
+      position: {x: 1.0776386e-13, y: 0.0017154138, z: 3.244999e-10}
+      rotation: {x: 0.000000015805028, y: 0.00000008940697, z: -0.000000015804972,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000011, z: 1.0000011}
+    - name: fox
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000067179414, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fox cape
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fox hair
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Block'
+      parentName: _Fox
+      position: {x: -0.0022656487, y: 0.01076, z: 0.00756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sparks
+      parentName: 'FX: Block'
+      position: {x: -0, y: 0.000080000005, z: 0.007979999}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000013315805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: damage boost'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: -0.08134999, y: 0.7024117, z: 0.7024117, w: 0.081349984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: sweat'
+      parentName: _Fox
+      position: {x: -0, y: 0.017949998, z: 0.00074}
+      rotation: {x: -0.7069846, y: 0, z: -0, w: 0.70722896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: health flask'
+      parentName: _Fox
+      position: {x: -0, y: 0.02, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS lines
+      parentName: 'FX: health flask'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS confetti
+      parentName: 'FX: health flask'
+      position: {x: -0, y: 0, z: 0.0007}
+      rotation: {x: -0.000000923872, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS health spell (1)
+      parentName: 'FX: health flask'
+      position: {x: -0, y: 0, z: -0.00104}
+      rotation: {x: -0.000000923872, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: antidote'
+      parentName: _Fox
+      position: {x: -0, y: 0.02, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS lines
+      parentName: 'FX: antidote'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS confetti
+      parentName: 'FX: antidote'
+      position: {x: -0, y: 0, z: 0.0007}
+      rotation: {x: -0.000000923872, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS health spell (1)
+      parentName: 'FX: antidote'
+      position: {x: -0, y: 0, z: -0.00104}
+      rotation: {x: -0.000000923872, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arrow spawn point
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0.01312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Death Camera Zone
+      parentName: _Fox
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera Position
+      parentName: Death Camera Zone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 0, z: 0}
+    - name: 'FX: poison'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Forcewand trail
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'Light: Lantern'
+      parentName: _Fox
+      position: {x: -0, y: 0.024999999, z: 0.015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Techbow Bolt Spawn Point
+      parentName: _Fox
+      position: {x: -0, y: 0.011030001, z: 0.0111}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'HT: Cross AOE hittrigger'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Cross AOE particles'
+      parentName: _Fox
+      position: {x: -0, y: 0.0025, z: 0}
+      rotation: {x: 1, y: -0, z: 0, w: -0.0000011984225}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'HT: Spear'
+      parentName: _Fox
+      position: {x: 0.00078124995, y: 0.012910156, z: 0.009550781}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hyperdash Appear/DisapparFX
+      parentName: _Fox
+      position: {x: -0, y: 0.0108, z: 0.00338}
+      rotation: {x: -0.00000086426724, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lantern Light max extension
+      parentName: _Fox
+      position: {x: -0, y: 0.024999999, z: 0.015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lantern Light min extension
+      parentName: _Fox
+      position: {x: -0, y: 0.027999999, z: 0.0002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Spear Beam'
+      parentName: _Fox
+      position: {x: -0, y: 0.010299999, z: 0.0117999995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2, y: 2, z: 32}
+    - name: 'FX: Spear Charge PS'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0.012499999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Spear Beam PS'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0.1725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: iframe dust'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: floppy hat
+      parentName: _Fox
+      position: {x: -0.0030750206, y: -0.00091153703, z: -0.0037081777}
+      rotation: {x: 0.10760728, y: 0.061852906, z: -0.011927136, w: 0.99219584}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: 'FX: prayer'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cylinder 1
+      parentName: 'FX: prayer'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.497, y: 1.4126805, z: 1.497}
+    - name: cylinder 2
+      parentName: 'FX: prayer'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000002233301, y: 0.97894245, z: 0.0000053284507, w: 0.2041365}
+      scale: {x: 2.0161314, y: 0.71927834, z: 2.0161314}
+    - name: radial_uv_ring
+      parentName: 'FX: prayer'
+      position: {x: -0, y: 0.00101, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8267, y: 1.8267, z: 1.8267}
+    - name: 'HT: hyperdash'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: -0.0077899997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: techbow_turret
+      parentName: _Fox
+      position: {x: 0.008197262, y: 0.008439545, z: -0.0008883728}
+      rotation: {x: -0.00000003774895, y: -1.110223e-16, z: 1.1102229e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lantern arc
+      parentName: _Fox
+      position: {x: -0, y: 0, z: -0.019256338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.958905, y: 1.4914, z: 1.86425}
+    - name: 'PS: lantern arc'
+      parentName: lantern arc
+      position: {x: -0, y: -0.00059999997, z: 0.010599999}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.48782, y: 0.48782, z: 0.22683862}
+    - name: 'Light: lantern arc'
+      parentName: lantern arc
+      position: {x: -0, y: 0.0092, z: 0.0007436603}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3658999, y: 3.4147398, z: 3.4147398}
+    - name: icedagger Hit Trigger
+      parentName: _Fox
+      position: {x: -0, y: 0.016199999, z: 0.044999998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 4.2689543, y: 3.860865, z: 8.047713}
+    - name: 'HT: lantern'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0.02}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3401625, y: 3.697, z: 3.697}
+    - name: FX:lightning
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: -0.42760637, y: 0.5100972, z: -0.5369481, w: 0.5183053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FX:lightning AOE impact
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: tether tip'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hyperdash FX
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dash arrow
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.0097, z: 0.031799998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dash fox
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0.01184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dashbolt_kickoff_1
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9959922, y: 0.9959922, z: 0.9959922}
+    - name: dashbolt_kickoff_2
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0623108, y: 1.062311, z: 1.062311}
+    - name: bolt torus
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bolt torus 2
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: sparks'
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.0099, z: 0}
+      rotation: {x: -6.12323e-17, y: 1, z: -6.12323e-17, w: 0.00000058114523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: electricity'
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.0139, z: 0.0672}
+      rotation: {x: 0.7071065, y: 0, z: -0, w: 0.70710707}
+      scale: {x: 0.82651, y: 1.4317219, z: 0.82651}
+    - name: bolt particle 02
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.0095, z: 0.048499998}
+      rotation: {x: 0.7071067, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dashbolt_kickoff_partway
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0, z: 0.0591}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.45877, y: 0.45877, z: 0.45877}
+    - name: 'PS: end effect'
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.011499999, z: 0.107099995}
+      rotation: {x: -6.101949e-17, y: 0.999994, z: 6.101949e-17, w: -0.0034700814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: sparks short'
+      parentName: Hyperdash FX
+      position: {x: -0, y: 0.014400001, z: 0}
+      rotation: {x: 1, y: 0, z: 0, w: -0.0000018642128}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hyperdash Termination FX
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dash arrow
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0.0097, z: 0.031799998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dash fox
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0.01184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dashbolt_kickoff_1
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9959922, y: 0.9959922, z: 0.9959922}
+    - name: dashbolt_kickoff_2
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0623108, y: 1.062311, z: 1.062311}
+    - name: bolt torus
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bolt torus 2
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: sparks'
+      parentName: Hyperdash Termination FX
+      position: {x: 0.0068, y: 0.0099, z: 0.0465}
+      rotation: {x: -6.12323e-17, y: 1, z: -6.12323e-17, w: 0.00000058114523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: electricity'
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0.0139, z: 0.0672}
+      rotation: {x: 0.7071065, y: 0, z: -0, w: 0.70710707}
+      scale: {x: 0.82651, y: 1.4317219, z: 0.82651}
+    - name: bolt particle 02
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0.0095, z: 0.048499998}
+      rotation: {x: 0.7071067, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dashbolt_kickoff_partway
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0, z: 0.0591}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.45877, y: 0.45877, z: 0.45877}
+    - name: 'PS: end effect'
+      parentName: Hyperdash Termination FX
+      position: {x: -0, y: 0.0107, z: 0.0011999999}
+      rotation: {x: -6.101949e-17, y: 0.999994, z: 6.101949e-17, w: -0.0034700814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CreatureFrozenIceBase
+      parentName: _Fox
+      position: {x: -0, y: 0.00219, z: -0.0025799999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1154864, y: 0.86209255, z: 1.3945812}
+    - name: icechunk
+      parentName: CreatureFrozenIceBase
+      position: {x: -0.00005, y: -0.00207, z: 0.0016699999}
+      rotation: {x: 0.050378095, y: 0, z: -0, w: 0.99873024}
+      scale: {x: 1.0510263, y: 1.2367176, z: 0.9997807}
+    - name: Cube
+      parentName: CreatureFrozenIceBase
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: '_Annotation: New Annotation'
+      parentName: _Fox
+      position: {x: -0, y: 0.033699997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lightprobe Override Anchor
+      parentName: _Fox
+      position: {x: -0, y: 0.01625, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: icedagger_fx
+      parentName: _Fox
+      position: {x: 0.0067, y: 0.00936, z: -0.016}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: traces
+      parentName: icedagger_fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.7071067, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: face cam
+      parentName: icedagger_fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.27984515, y: 0.36470568, z: -0.11591568, w: 0.88047713}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: ring
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000014901161, y: -8.9420646e-23, z: 0.00000051409006, w: 1}
+      scale: {x: 6.6061807, y: 6.6061807, z: 6.6061807}
+    - name: gas
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.258819, w: 0.9659259}
+      scale: {x: 5.718666, y: 5.718666, z: 5.7186666}
+    - name: ring (spikes)
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000010430812, y: -0.00000001490116, z: 0.87496006, w: 0.4841951}
+      scale: {x: 23.269363, y: 23.269363, z: 23.269363}
+    - name: ring (2nd)
+      parentName: face cam
+      position: {x: -8.8817837e-17, y: -0.000000004866722, z: 0.000000003441243}
+      rotation: {x: 0.000000007450578, y: -0.00000008940697, z: 0.9181262, w: -0.39628816}
+      scale: {x: 11.4132595, y: 11.4132595, z: 11.4132595}
+    - name: charge_core
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.8481697, y: 0.31003287, z: -0.31103498, w: 0.2962181}
+      scale: {x: 0, y: 0, z: 0}
+    - name: icedagger_blast
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.54763, y: 0.54763, z: 0.7}
+    - name: icechunk_big
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: -6.123216e-17, y: 1, z: -6.123216e-17, w: 0.0000029504295}
+      scale: {x: 8, y: 8, z: 8}
+    - name: icechunk_spike (1)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: 0.44253245, y: 0.863383, z: -0.14275222, w: 0.19584876}
+      scale: {x: 4.8472347, y: 4.847235, z: 4.847235}
+    - name: icechunk_spike (2)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: -0.51669776, y: 0.776693, z: -0.07171387, w: -0.35302785}
+      scale: {x: 4.8472347, y: 4.8472347, z: 4.8472347}
+    - name: icechunk_spike (3)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: 0.816363, y: 0.15248, z: -0.44602126, w: 0.33371603}
+      scale: {x: 3.5031798, y: 3.5031798, z: 3.5031798}
+    - name: icechunk_spike (4)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: -0.0011778721, y: 0.81229365, z: -0.56741107, w: 0.13499051}
+      scale: {x: 3.3104188, y: 3.3104188, z: 3.3104188}
+    - name: icechunk_spike (5)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: 0.22696222, y: 0.9001692, z: -0.21460067, w: 0.30352968}
+      scale: {x: 3.7235184, y: 3.7235184, z: 3.7235184}
+    - name: icechunk_spike (6)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: 0.05366315, y: 0.8075848, z: -0.5066487, w: -0.29704246}
+      scale: {x: 5.64846, y: 5.64846, z: 5.64846}
+    - name: icechunk_spike (7)
+      parentName: icedagger_blast
+      position: {x: -0, y: 0, z: 0.0365}
+      rotation: {x: -0.30386376, y: 0.9042391, z: -0.25643358, w: -0.15575698}
+      scale: {x: 5.53577, y: 5.53577, z: 5.53577}
+    - name: face cam
+      parentName: icedagger_blast
+      position: {x: -0, y: 0.014099999, z: 0.0365}
+      rotation: {x: 0.27984515, y: 0.36470568, z: -0.11591568, w: 0.88047713}
+      scale: {x: 0.66, y: 0.66, z: 0.66}
+    - name: ring_thicker
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.21696, y: 1.21696, z: 1.21696}
+    - name: ring_thicker (spikes)
+      parentName: face cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.241275, y: 2.241275, z: 2.241275}
+    - name: icedagger_shockwave
+      parentName: icedagger_blast
+      position: {x: -0, y: 0.0027, z: 0.0365}
+      rotation: {x: -6.123216e-17, y: 1, z: -6.123216e-17, w: 0.0000029504295}
+      scale: {x: 6.2328873, y: 6.2328873, z: 6.2328873}
+    - name: 'PS: shards (physics)'
+      parentName: icedagger_blast
+      position: {x: -0, y: 0.012, z: 0.0451}
+      rotation: {x: -0.0000027126725, y: 0.3183235, z: 0.94798213, w: 0.00000091089}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: triangles'
+      parentName: 'PS: shards (physics)'
+      position: {x: -0, y: 0, z: 0.021099998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: shards'
+      parentName: 'PS: shards (physics)'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: charge_core
+      parentName: icedagger_blast
+      position: {x: -0, y: 0.014099999, z: 0.0365}
+      rotation: {x: -6.123216e-17, y: 1, z: -6.123216e-17, w: 0.0000029504295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wandbow fire effect
+      parentName: _Fox
+      position: {x: -0, y: 0.00986, z: 0.0126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2, y: 1.2, z: 1.2}
+    - name: explosionfx_spikes
+      parentName: wandbow fire effect
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tetherwand_hit_fx
+      parentName: _Fox
+      position: {x: 0.07, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: starburst mesh
+      parentName: tetherwand_hit_fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.27984515, y: 0.36470568, z: -0.11591568, w: 0.88047713}
+      scale: {x: 1.6272001, y: 1.6271998, z: 1.6272004}
+    - name: starburst mesh (1)
+      parentName: tetherwand_hit_fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.27984515, y: 0.36470568, z: -0.11591568, w: 0.88047713}
+      scale: {x: 1.8549584, y: 1.854958, z: 1.8549587}
+    - name: tetherwand_beam
+      parentName: _Fox
+      position: {x: -0, y: 0.02857, z: 0.0103400005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_beam_armature
+      parentName: tetherwand_beam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: start_bone
+      parentName: tentacle_beam_armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: start_bone_end
+      parentName: start_bone
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: end_bone
+      parentName: tentacle_beam_armature
+      position: {x: -0, y: 0.0000155037, z: 0.039443243}
+      rotation: {x: -0, y: -0, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: end_bone_end
+      parentName: end_bone
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: -0.07421577, y: 0, z: -0, w: 0.9972422}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_beam_mesh
+      parentName: tetherwand_beam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tetherwand_windup_root
+      parentName: _Fox
+      position: {x: -0, y: 0.03, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tetherwand_windup
+      parentName: tetherwand_windup_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_armature
+      parentName: tetherwand_windup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_rotator
+      parentName: tentacle_armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000021855692, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle.1
+      parentName: base_rotator
+      position: {x: -0, y: 0, z: 3.5527136e-17}
+      rotation: {x: 0.7071068, y: 9.545998e-15, z: -6.1549276e-15, w: 0.7071068}
+      scale: {x: 0.002447654, y: 0.0024476538, z: 0.0024476538}
+    - name: tentacle.2
+      parentName: tentacle.1
+      position: {x: 0.000010328322, y: 0.0049999994, z: 2.094748e-12}
+      rotation: {x: -0, y: -2.2204457e-14, z: 1.11022286e-14, w: 1}
+      scale: {x: 0.637604, y: 0.6376041, z: 0.6376041}
+    - name: tentacle.3
+      parentName: tentacle.2
+      position: {x: 0.000014638267, y: 0.0049999794, z: 2.906771e-12}
+      rotation: {x: -1.2325949e-28, y: 1.1102228e-14, z: -1.11022286e-14, w: 1}
+      scale: {x: 1.7275003, y: 1.7275001, z: 1.7275001}
+    - name: tentacle.4
+      parentName: tentacle.3
+      position: {x: 0.000023952249, y: 0.004999966, z: 4.692155e-12}
+      rotation: {x: 1.232595e-28, y: -8.4703285e-22, z: 1.110223e-14, w: 1}
+      scale: {x: 1.0588434, y: 1.0588435, z: 1.0588435}
+    - name: tentacle.5
+      parentName: tentacle.4
+      position: {x: 0.000037620695, y: 0.004999913, z: 7.325628e-12}
+      rotation: {x: 1.2325953e-28, y: 1.1102232e-14, z: -1.6940657e-21, w: 1}
+      scale: {x: 0.7456839, y: 0.7456838, z: 0.7456838}
+    - name: tentacle.6
+      parentName: tentacle.5
+      position: {x: 0.000041412193, y: 0.0049998425, z: 8.043981e-12}
+      rotation: {x: 1.2037061e-35, y: -0, z: -1.11022286e-14, w: 1}
+      scale: {x: 1.368666, y: 1.3686662, z: 1.3686662}
+    - name: tentacle.7
+      parentName: tentacle.6
+      position: {x: 0.0000562144, y: 0.004999764, z: 1.0894152e-11}
+      rotation: {x: 1.7303278e-35, y: 1.6940657e-21, z: 1.6940657e-21, w: 1}
+      scale: {x: 0.7893987, y: 0.7893987, z: 0.7893987}
+    - name: tentacle.8
+      parentName: tentacle.7
+      position: {x: 0.000058219717, y: 0.0049996735, z: 1.1269786e-11}
+      rotation: {x: -7.899321e-35, y: -1.110223e-14, z: 1.11022286e-14, w: 1}
+      scale: {x: 1.3524028, y: 1.3524028, z: 1.3524028}
+    - name: tentacle.8_end
+      parentName: tentacle.8
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slashfx
+      parentName: tentacle.8
+      position: {x: 0.00012774998, y: 0.0050892234, z: -0.0012187664}
+      rotation: {x: -0.7071068, y: 6.154925e-15, z: 6.154925e-15, w: 0.7071068}
+      scale: {x: 0, y: 0, z: 0}
+    - name: slashfx_end
+      parentName: slashfx
+      position: {x: -0, y: 0.014900186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_mesh
+      parentName: tetherwand_windup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tetherwand_windup (1)
+      parentName: tetherwand_windup_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_armature
+      parentName: tetherwand_windup (1)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_rotator
+      parentName: tentacle_armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000021855694, y: -3.496662e-16, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle.1
+      parentName: base_rotator
+      position: {x: -0, y: 0, z: 3.5527136e-17}
+      rotation: {x: 0.7071068, y: -0.000000008728897, z: 0.000000021073426, w: 0.7071068}
+      scale: {x: 0.0024476543, y: 0.0024476538, z: 0.0024476543}
+    - name: tentacle.2
+      parentName: tentacle.1
+      position: {x: 0.000010328322, y: 0.0049999994, z: 2.094748e-12}
+      rotation: {x: -0.000000059604645, y: 0.000000021073431, z: -0.00000006322028,
+        w: 1}
+      scale: {x: 0.63760394, y: 0.6376041, z: 0.637604}
+    - name: tentacle.3
+      parentName: tentacle.2
+      position: {x: 0.000014638267, y: 0.0049999794, z: 2.906771e-12}
+      rotation: {x: 0.000000059604645, y: -0.000000021073431, z: 0.00000006322028,
+        w: 1}
+      scale: {x: 1.7275003, y: 1.7275002, z: 1.7275009}
+    - name: tentacle.4
+      parentName: tentacle.3
+      position: {x: 0.000023952249, y: 0.004999966, z: 4.692155e-12}
+      rotation: {x: -0, y: -0, z: 1.2560744e-15, w: 1}
+      scale: {x: 1.0588434, y: 1.0588434, z: 1.0588434}
+    - name: tentacle.5
+      parentName: tentacle.4
+      position: {x: 0.000037620695, y: 0.004999913, z: 7.325628e-12}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.7456839, y: 0.7456837, z: 0.74568367}
+    - name: tentacle.6
+      parentName: tentacle.5
+      position: {x: 0.000041412193, y: 0.0049998425, z: 8.043981e-12}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3686656, y: 1.3686663, z: 1.3686666}
+    - name: tentacle.7
+      parentName: tentacle.6
+      position: {x: 0.0000562144, y: 0.004999764, z: 1.0894152e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.789399, y: 0.78939867, z: 0.78939897}
+    - name: tentacle.8
+      parentName: tentacle.7
+      position: {x: 0.000058219717, y: 0.0049996735, z: 1.1269786e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3524028, y: 1.3524028, z: 1.3524024}
+    - name: tentacle.8_end
+      parentName: tentacle.8
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slashfx
+      parentName: tentacle.8
+      position: {x: 0.00012774998, y: 0.0050892234, z: -0.0012187664}
+      rotation: {x: -0.61237246, y: -0.35355338, z: -0.3535534, w: 0.61237246}
+      scale: {x: 0, y: 0, z: 0}
+    - name: slashfx_end
+      parentName: slashfx
+      position: {x: -0, y: 0.014900186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_mesh
+      parentName: tetherwand_windup (1)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tetherwand_windup (2)
+      parentName: tetherwand_windup_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.5, w: 0.8660254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_armature
+      parentName: tetherwand_windup (2)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: base_rotator
+      parentName: tentacle_armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000021855694, y: 3.496662e-16, z: 0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle.1
+      parentName: base_rotator
+      position: {x: 2.9108477e-31, y: -9.546769e-24, z: 3.5527133e-17}
+      rotation: {x: 0.7071068, y: 0.000000008728897, z: -0.000000021073426, w: 0.7071068}
+      scale: {x: 0.002447654, y: 0.0024476536, z: 0.0024476538}
+    - name: tentacle.2
+      parentName: tentacle.1
+      position: {x: 0.000010328322, y: 0.0049999994, z: 2.094748e-12}
+      rotation: {x: -0, y: -0, z: 4.4408916e-16, w: 1}
+      scale: {x: 0.6376042, y: 0.6376042, z: 0.63760424}
+    - name: tentacle.3
+      parentName: tentacle.2
+      position: {x: 0.000014638267, y: 0.0049999794, z: 2.906771e-12}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.7275009, y: 1.7275009, z: 1.7275008}
+    - name: tentacle.4
+      parentName: tentacle.3
+      position: {x: 0.000023952249, y: 0.004999966, z: 4.692155e-12}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0588437, y: 1.0588436, z: 1.0588439}
+    - name: tentacle.5
+      parentName: tentacle.4
+      position: {x: 0.000037620695, y: 0.004999913, z: 7.325628e-12}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.74568385, y: 0.7456838, z: 0.7456839}
+    - name: tentacle.6
+      parentName: tentacle.5
+      position: {x: 0.000041412193, y: 0.0049998425, z: 8.043981e-12}
+      rotation: {x: 1.871696e-23, y: 0.00000004214685, z: -2.2204458e-15, w: 1}
+      scale: {x: 1.3686669, y: 1.3686665, z: 1.3686668}
+    - name: tentacle.7
+      parentName: tentacle.6
+      position: {x: 0.0000562144, y: 0.004999764, z: 1.0894152e-11}
+      rotation: {x: -1.871696e-23, y: -0.00000004214685, z: 2.2204458e-15, w: 1}
+      scale: {x: 0.789399, y: 0.78939885, z: 0.7893989}
+    - name: tentacle.8
+      parentName: tentacle.7
+      position: {x: 0.000058219717, y: 0.0049996735, z: 1.1269786e-11}
+      rotation: {x: -0, y: -0, z: -7.888609e-31, w: 1}
+      scale: {x: 1.3524034, y: 1.3524032, z: 1.3524034}
+    - name: tentacle.8_end
+      parentName: tentacle.8
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slashfx
+      parentName: tentacle.8
+      position: {x: 0.00012774998, y: 0.0050892234, z: -0.0012187664}
+      rotation: {x: -0.61237246, y: 0.35355338, z: 0.3535534, w: 0.61237246}
+      scale: {x: 0, y: 0, z: 0}
+    - name: slashfx_end
+      parentName: slashfx
+      position: {x: -0, y: 0.014900186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tentacle_mesh
+      parentName: tetherwand_windup (2)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'CZ: zoomin'
+      parentName: _Fox
+      position: {x: -0, y: 0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera Position
+      parentName: 'CZ: zoomin'
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 0, z: 0}
+    - name: 'PS: Piggybank Smash'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0.016}
+      rotation: {x: -0.70710576, y: 0, z: -0, w: 0.70710784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Block (new)'
+      parentName: _Fox
+      position: {x: -0.0022656487, y: 0.01076, z: 0.014809999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sparks
+      parentName: 'FX: Block (new)'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: Block player-aligned'
+      parentName: 'FX: Block (new)'
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shotgun muzzle flash
+      parentName: _Fox
+      position: {x: 0.00321, y: 0.009676571, z: 0.01375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.999861, y: 1.010001, z: 0.9917707}
+    - name: ragged flash
+      parentName: shotgun muzzle flash
+      position: {x: -0, y: 0.0003000058, z: 0.00075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.117625, y: 5.117625, z: 1.3078699}
+    - name: star flash
+      parentName: shotgun muzzle flash
+      position: {x: -0, y: 0.0003000058, z: -0.00041}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3362213, y: 1.3362213, z: 1.3362213}
+    - name: sphere flash
+      parentName: shotgun muzzle flash
+      position: {x: -0.0004, y: 0.0003000058, z: 0.0073}
+      rotation: {x: 0.86233497, y: 0.30083567, z: 0.3553035, w: -0.19908758}
+      scale: {x: 0.89139324, y: 0.8913932, z: 0.8913932}
+    - name: Point Light
+      parentName: shotgun muzzle flash
+      position: {x: -0, y: 0, z: 0.0022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS sparks
+      parentName: shotgun muzzle flash
+      position: {x: -0, y: 0, z: 0.0073}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'HT: shotgun'
+      parentName: _Fox
+      position: {x: -0.0001, y: 0.0145000005, z: 0.0269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6, y: 6, z: 5}
+    - name: Shotgun Pool
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shotgun_projectile
+      parentName: Shotgun Pool
+      position: {x: 0.0013893843, y: 0.038239997, z: -0.00913}
+      rotation: {x: 1, y: -0, z: 0, w: -0.00000039947417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rotator (1)
+      parentName: shotgun_projectile
+      position: {x: -0, y: 0, z: -0.01562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trail (1)
+      parentName: rotator (1)
+      position: {x: -0, y: 0.0022, z: 0.0091}
+      rotation: {x: 0, y: 0, z: -0.818249, w: 0.5748641}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trail (2)
+      parentName: rotator (1)
+      position: {x: -0.00282, y: -0.00165, z: 0.0091}
+      rotation: {x: 0, y: 0, z: -0.818249, w: 0.5748641}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trail (3)
+      parentName: rotator (1)
+      position: {x: 0.0019599998, y: -0.0013199999, z: -0.001789999}
+      rotation: {x: 0, y: 0, z: -0.818249, w: 0.5748641}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trail (1)
+      parentName: shotgun_projectile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: projectile graphic
+      parentName: shotgun_projectile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: graphic (1)
+      parentName: projectile graphic
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.9238797, y: 0.38268322, z: 0.00000007559306, w: -0.00000017544087}
+      scale: {x: 0.7, y: 0.7, z: 1}
+    - name: trail graphic
+      parentName: shotgun_projectile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS distance
+      parentName: trail graphic
+      position: {x: -0, y: 0, z: -0.010326318}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6, y: 6, z: 6}
+    - name: Trail (1)
+      parentName: trail graphic
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PS distance 1
+      parentName: trail graphic
+      position: {x: -0, y: 0, z: -0.0053263186}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 6, y: 6, z: 6}
+    - name: impact fx
+      parentName: shotgun_projectile
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: techbolt impact
+      parentName: impact fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: balls'
+      parentName: impact fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: ball at origin'
+      parentName: impact fx
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fairy Seeker Pool
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fairyseeker
+      parentName: Fairy Seeker Pool
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: graphic
+      parentName: fairyseeker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.1, y: 0.1, z: 0.1}
+    - name: 'FX: stamina boost'
+      parentName: _Fox
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: -0.08134999, y: 0.7024117, z: 0.7024117, w: 0.081349984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ZTargets
+      parentName: _Fox
+      position: {x: 0.000040000006, y: 0.00703, z: 3.0733643e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ZTargetting Reticule
+      parentName: ZTargets
+      position: {x: -0.000040000006, y: -0.00703, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube 1
+      parentName: ZTargetting Reticule
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.33, y: 0.33, z: 0.33}
+    - name: Cube 2
+      parentName: ZTargetting Reticule
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.33, y: 0.33, z: 0.33}
+    - name: Cube 3
+      parentName: ZTargetting Reticule
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.33, y: 0.33, z: 0.33}
+    - name: thin circle
+      parentName: ZTargetting Reticule
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.707106, y: 0, z: -0, w: 0.7071076}
+      scale: {x: 1.5, y: 1.5, z: 1.5}
+    - name: ZTargetting Reticule Preview
+      parentName: ZTargets
+      position: {x: -0.000040000006, y: -0.00703, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: circle
+      parentName: ZTargetting Reticule Preview
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.707106, y: 0, z: -0, w: 0.7071076}
+      scale: {x: 0.75, y: 0.75, z: 0.75}
+    - name: Water Collisison
+      parentName: _Fox
+      position: {x: -0, y: 0.002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'SFX: prayer loop'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'SFX: Hourglass Event'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'SFX: Hourglass Snapshot'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'SFX: Fairy Seeker SFX'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'PS: iframe dust (more)'
+      parentName: _Fox
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 'FX: cheap icebolt'
+      parentName: _Fox
+      position: {x: -0, y: 0.02677, z: 0}
+      rotation: {x: -0.08135019, y: 0.7024132, z: -0.7024102, w: -0.0813498}
+      scale: {x: 1, y: 1, z: 1}
+    - name: doll
+      parentName: _Fox
+      position: {x: -0, y: -0.005, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: book
+      parentName: _Fox
+      position: {x: 0.000017692624, y: 0.015159233, z: 0.019557683}
+      rotation: {x: 0.000001016537, y: -1.0339762e-23, z: -6.623797e-24, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

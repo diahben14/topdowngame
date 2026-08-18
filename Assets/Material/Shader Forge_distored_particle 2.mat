@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Forge_distored_particle 2
+  m_Shader: {fileID: 4800000, guid: 3663f30da36f8ea429b39d1cc1ff10dd, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _caustic:
+        m_Texture: {fileID: 2800000, guid: 918a2261b7667344f829d7dd5ae8f71d, type: 3}
+        m_Scale: {x: 1, y: 0.125}
+        m_Offset: {x: 0, y: 0}
+      _distortion_tex:
+        m_Texture: {fileID: 2800000, guid: e1188c026543b7f4885d86cad6c51666, type: 3}
+        m_Scale: {x: 1, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+      _ramp:
+        m_Texture: {fileID: 2800000, guid: 6fb555d0ad772884e9ed82fab3e23a3e, type: 3}
+        m_Scale: {x: 0.53, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _distortion: 0.186
+    m_Colors:
+      _Color: {r: 0, g: 3.6296816, b: 9.601093, a: 1}

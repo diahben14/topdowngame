@@ -1,0 +1,10 @@
+namespace FMOD
+{
+	public enum SOUNDGROUP_BEHAVIOR
+	{
+		BEHAVIOR_FAIL = 0,
+		BEHAVIOR_MUTE = 1,
+		BEHAVIOR_STEALLOWEST = 2,
+		MAX = 3
+	}
+}

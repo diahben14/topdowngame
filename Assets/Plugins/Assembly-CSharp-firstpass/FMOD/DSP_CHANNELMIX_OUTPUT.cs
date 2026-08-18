@@ -1,0 +1,14 @@
+namespace FMOD
+{
+	public enum DSP_CHANNELMIX_OUTPUT
+	{
+		DEFAULT = 0,
+		ALLMONO = 1,
+		ALLSTEREO = 2,
+		ALLQUAD = 3,
+		ALL5POINT1 = 4,
+		ALL7POINT1 = 5,
+		ALLLFE = 6,
+		ALL7POINT1POINT4 = 7
+	}
+}

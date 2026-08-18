@@ -1,0 +1,18 @@
+namespace FMOD
+{
+	public enum THREAD_TYPE
+	{
+		MIXER = 0,
+		FEEDER = 1,
+		STREAM = 2,
+		FILE = 3,
+		NONBLOCKING = 4,
+		RECORD = 5,
+		GEOMETRY = 6,
+		PROFILER = 7,
+		STUDIO_UPDATE = 8,
+		STUDIO_LOAD_BANK = 9,
+		STUDIO_LOAD_SAMPLE = 10,
+		MAX = 11
+	}
+}
